@@ -3,7 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Resource from 'vue-resource'
+import iView from 'iview';
+import 'iview/dist/styles/iview.css';
+// import './assets/style/bootstrap.css';
+import './assets/style/reset.css'
+import './assets/style/public.css'
 
+Vue.use(iView)
+Vue.use(Resource)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
