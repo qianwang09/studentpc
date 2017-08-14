@@ -11,7 +11,7 @@ ul.inline>li {
 }
 
 .float-weixin {
-    position: absolute;
+    position: fixed;
     top: 100px;
     right: 0px;
     z-index: 1000;
@@ -25,14 +25,17 @@ ul.inline>li {
 
 @media (min-width: 980px) {
     .float-weixin {
-        position: absolute;
-        top: 270px;
-        right: 44px;
+        position: fixed;
+        // top: 270px;
+        // right: 44px;
+         top: 150px;
+        right: 34px;
         z-index: 1000;
         div {
             margin-top: 20px;
             img {
-                width: 100%;
+                // width: 100%;
+                width: 150px;
             }
         }
     }
