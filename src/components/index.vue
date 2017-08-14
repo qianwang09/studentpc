@@ -106,7 +106,7 @@ export default {
     return {
       carouselValue: 0,
       carouselSetting: {
-        img: ['./static/img/carousel.jpg'],
+        img: ['./style/img/carousel.jpg'],
         autoplay: false,
         autoplaySpeed: 2000,
         dots: 'inside',
